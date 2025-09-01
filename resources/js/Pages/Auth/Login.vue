@@ -37,29 +37,53 @@ const submit = () => {
         <Head title="Log in" />
 
         <!-- Login Credentials Card -->
-        <div class="mb-8 flex flex-col md:flex-row gap-6 justify-center">
-            <div class="bg-white shadow-lg rounded-lg p-6 w-full md:w-96 border border-gray-200">
-                <h2 class="text-lg font-semibold text-indigo-700 mb-2 flex items-center gap-2">
-                    <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 01-8 0m8 0a4 4 0 01-8 0m8 0V5a4 4 0 00-8 0v2m8 0v2a4 4 0 01-8 0V7"></path></svg>
+        <div class="mb-8 flex flex-col justify-center gap-6 md:flex-row">
+            <div class="w-full rounded-lg border border-gray-200 bg-white p-6 shadow-lg md:w-96">
+                <h2 class="mb-2 flex items-center gap-2 text-lg font-semibold text-indigo-700">
+                    <svg
+                        class="h-5 w-5 text-indigo-500"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M16 7a4 4 0 01-8 0m8 0a4 4 0 01-8 0m8 0V5a4 4 0 00-8 0v2m8 0v2a4 4 0 01-8 0V7"
+                        ></path>
+                    </svg>
                     Rental Owner Login
                 </h2>
                 <div class="mb-2">
-                    <span class="ml-2 text-gray-600 font-medium">rentalowner@example.com</span>
+                    <span class="ml-2 font-medium text-gray-600">rentalowner@example.com</span>
                 </div>
                 <div>
-                    <span class="ml-2 text-gray-600 font-medium">password</span>
+                    <span class="ml-2 font-medium text-gray-600">password</span>
                 </div>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 w-full md:w-96 border border-gray-200">
-                <h2 class="text-lg font-semibold text-indigo-700 mb-2 flex items-center gap-2">
-                    <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 15c2.5 0 4.847.657 6.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            <div class="w-full rounded-lg border border-gray-200 bg-white p-6 shadow-lg md:w-96">
+                <h2 class="mb-2 flex items-center gap-2 text-lg font-semibold text-indigo-700">
+                    <svg
+                        class="h-5 w-5 text-indigo-500"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M5.121 17.804A13.937 13.937 0 0112 15c2.5 0 4.847.657 6.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                        ></path>
+                    </svg>
                     User Login
                 </h2>
                 <div class="mb-2">
-                    <span class="ml-2 text-gray-600 font-medium">user@example.com</span>
+                    <span class="ml-2 font-medium text-gray-600">user@example.com</span>
                 </div>
                 <div>
-                    <span class="ml-2 text-gray-600 font-medium">password</span>
+                    <span class="ml-2 font-medium text-gray-600">password</span>
                 </div>
             </div>
         </div>
